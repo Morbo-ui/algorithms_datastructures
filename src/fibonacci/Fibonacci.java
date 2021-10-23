@@ -1,11 +1,11 @@
-package Fibonacci;
+package fibonacci;
 
 import java.util.Arrays;
 
 public class Fibonacci {
 
     public static void main(String[] args) {
-        int n = 100;
+        int n = 2;
         long[] mem = new long[n + 1];
 
         Arrays.fill(mem, -1);
